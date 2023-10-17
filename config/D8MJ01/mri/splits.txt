@@ -1,0 +1,189 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:32
+	.bss        type:bss align:8
+
+mri.o:
+	.text       start:0x00000000 end:0x00001540
+	.rodata     start:0x00000000 end:0x00000288
+	.data       start:0x00000000 end:0x00000F98
+
+mri_00.o:
+	.text       start:0x00001540 end:0x0000234C
+	.rodata     start:0x00000288 end:0x000008B0
+	.data       start:0x00000F98 end:0x00004710
+	.bss        start:0x00000000 end:0x00000008
+
+mri_01.o:
+	.text       start:0x0000234C end:0x00002AF8
+	.rodata     start:0x000008B0 end:0x00001BF0
+	.data       start:0x00004710 end:0x0000F750
+	.bss        start:0x00000008 end:0x00000010
+
+mri_02.o:
+	.text       start:0x00002AF8 end:0x00002D68
+	.rodata     start:0x00001BF0 end:0x00001E58
+	.data       start:0x0000F750 end:0x000102B0
+	.bss        start:0x00000010 end:0x00000020
+
+mri_03.o:
+	.text       start:0x00002D68 end:0x00003450
+	.rodata     start:0x00001E58 end:0x00002618
+	.data       start:0x000102B0 end:0x000140A8
+	.bss        start:0x00000020 end:0x00000028
+
+mri_04.o:
+	.text       start:0x00003450 end:0x0000352C
+	.rodata     start:0x00002618 end:0x000029D8
+	.data       start:0x000140A8 end:0x00015A60
+
+mri_05.o:
+	.text       start:0x0000352C end:0x000037A0
+	.rodata     start:0x000029D8 end:0x00002D08
+	.data       start:0x00015A60 end:0x00016F58
+	.bss        start:0x00000028 end:0x00000030
+
+mri_06.o:
+	.rodata     start:0x00002D08 end:0x00003108
+	.data       start:0x00016F58 end:0x000185D0
+
+mri_07.o:
+	.rodata     start:0x00003108 end:0x000035F0
+	.data       start:0x000185D0 end:0x00019238
+
+mri_08.o:
+	.text       start:0x000037A0 end:0x0000381C
+	.rodata     start:0x000035F0 end:0x00003A38
+	.data       start:0x00019238 end:0x0001AC30
+
+mri_09.o:
+	.rodata     start:0x00003A38 end:0x00003D48
+	.data       start:0x0001AC30 end:0x0001BE20
+
+mri_10.o:
+	.rodata     start:0x00003D48 end:0x00003DD8
+	.data       start:0x0001BE20 end:0x0001C188
+
+mri_11.o:
+	.rodata     start:0x00003DD8 end:0x000041B8
+	.data       start:0x0001C188 end:0x0001DA40
+
+mri_12.o:
+	.rodata     start:0x000041B8 end:0x00004370
+	.data       start:0x0001DA40 end:0x0001E098
+
+mri_13.o:
+	.text       start:0x0000381C end:0x000039C4
+	.rodata     start:0x00004370 end:0x00004628
+	.data       start:0x0001E098 end:0x0001F498
+
+mri_14.o:
+	.text       start:0x000039C4 end:0x00003C54
+	.rodata     start:0x00004628 end:0x00004A20
+	.data       start:0x0001F498 end:0x00021810
+
+mri_15.o:
+	.rodata     start:0x00004A20 end:0x00004C00
+	.data       start:0x00021810 end:0x000221B0
+
+mri_16.o:
+	.text       start:0x00003C54 end:0x00003D38
+	.rodata     start:0x00004C00 end:0x00004EE8
+	.data       start:0x000221B0 end:0x00023080
+	.bss        start:0x00000030 end:0x00000038
+
+punidrv.o:
+	.text       start:0x00003D38 end:0x00005064
+	.rodata     start:0x00004EE8 end:0x00004F40
+	.data       start:0x00023080 end:0x00023940
+	.bss        start:0x00000038 end:0x00000040
+
+mri_puni.o:
+	.text       start:0x00005064 end:0x00019904
+	.rodata     start:0x00004F40 end:0x00005920
+	.data       start:0x00023940 end:0x00024838
+	.bss        start:0x00000040 end:0x00000070
+
+battle_database_mri.o:
+	.rodata     start:0x00005920 end:0x00005CE0
+	.data       start:0x00024838 end:0x00026600
+
+unit_kuriboo.o:
+	.text       start:0x00019904 end:0x00019A1C
+	.rodata     start:0x00005CE0 end:0x00005E38
+	.data       start:0x00026600 end:0x00027198
+
+unit_boss_magnum_battender.o:
+	.text       start:0x00019A1C end:0x0001A218
+	.rodata     start:0x00005E38 end:0x000061E8
+	.data       start:0x00027198 end:0x00029E80
+	.bss        start:0x00000070 end:0x00000080
+
+unit_gundan_zako.o:
+	.rodata     start:0x000061E8 end:0x00006408
+	.data       start:0x00029E80 end:0x0002B470
+
+unit_barriern.o:
+	.text       start:0x0001A218 end:0x0001C7F4
+	.rodata     start:0x00006408 end:0x00006750
+	.data       start:0x0002B470 end:0x0002E590
+	.bss        start:0x00000080 end:0x00000090
+
+unit_piders.o:
+	.text       start:0x0001C7F4 end:0x0001CED0
+	.rodata     start:0x00006750 end:0x00006900
+	.data       start:0x0002E590 end:0x00030748
+
+unit_barriern_satellite.o:
+	.text       start:0x0001CED0 end:0x0001D020
+	.rodata     start:0x00006900 end:0x00006A30
+	.data       start:0x00030748 end:0x00030C88
+
+unit_dokugassun.o:
+	.text       start:0x0001D020 end:0x0001D348
+	.rodata     start:0x00006A30 end:0x00006BE0
+	.data       start:0x00030C88 end:0x00032070
+
+unit_pakkun_flower.o:
+	.text       start:0x0001D348 end:0x0001D5D8
+	.rodata     start:0x00006BE0 end:0x00006DA0
+	.data       start:0x00032070 end:0x00033230
+
+mri_17.o:
+	.text       start:0x0001D5D8 end:0x0001D640
+	.rodata     start:0x00006DA0 end:0x000071A0
+	.data       start:0x00033230 end:0x00035468
+
+mri_20.o:
+	.rodata     start:0x000071A0 end:0x00007300
+	.data       start:0x00035468 end:0x000358D0
+
+mri_18.o:
+	.rodata     start:0x00007300 end:0x00007450
+	.data       start:0x000358D0 end:0x00035CB0
+
+mri_19.o:
+	.rodata     start:0x00007450 end:0x000075C8
+	.data       start:0x00035CB0 end:0x00036180
+
+unit_boss_kanbu2.o:
+	.rodata     start:0x000075C8 end:0x00007738
+	.data       start:0x00036180 end:0x00036C50
+
+unit_monochrome_kurokumorn.o:
+	.rodata     start:0x00007738 end:0x000078F8
+	.data       start:0x00036C50 end:0x00038410
+
+unit_monochrome_pakkun.o:
+	.text       start:0x0001D640 end:0x0001D8D0
+	.rodata     start:0x000078F8 end:0x00007AB8
+	.data       start:0x00038410 end:0x000395D0
+
+evt_lect_mri.o:
+	.text       start:0x0001D8D0 end:0x0001EB10
+	.rodata     start:0x00007AB8 end:0x00007D23
+	.data       start:0x000395D0 end:0x0003A3B0
+	.bss        start:0x00000090 end:0x00000128

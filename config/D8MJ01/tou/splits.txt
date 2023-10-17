@@ -1,0 +1,87 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+tou.o:
+	.text       start:0x00000000 end:0x000032FC
+	.rodata     start:0x00000000 end:0x00002008
+	.data       start:0x00000000 end:0x00007590
+	.bss        start:0x00000000 end:0x00000020
+
+tou_00.o:
+	.text       start:0x000032FC end:0x00003580
+	.rodata     start:0x00002008 end:0x000022E8
+	.data       start:0x00007590 end:0x00009098
+
+tou_01.o:
+	.text       start:0x00003580 end:0x00004420
+	.rodata     start:0x000022E8 end:0x00003BC0
+	.data       start:0x00009098 end:0x00010E68
+
+tou_02.o:
+	.text       start:0x00004420 end:0x0000633C
+	.rodata     start:0x00003BC0 end:0x00004AC0
+	.data       start:0x00010E68 end:0x00015240
+	.bss        start:0x00000020 end:0x00000028
+
+tou_04.o:
+	.text       start:0x0000633C end:0x0000645C
+	.rodata     start:0x00004AC0 end:0x000052B0
+	.data       start:0x00015240 end:0x0001A790
+	.bss        start:0x00000028 end:0x00000030
+
+tou_05.o:
+	.text       start:0x0000645C end:0x000064B8
+	.rodata     start:0x000052B0 end:0x00005AE0
+	.data       start:0x0001A790 end:0x0001EAC8
+
+tou_06.o:
+	.text       start:0x000064B8 end:0x00006718
+	.rodata     start:0x00005AE0 end:0x00005EB0
+	.data       start:0x0001EAC8 end:0x00020610
+	.bss        start:0x00000030 end:0x00000040
+
+tou_07.o:
+	.text       start:0x00006718 end:0x000067EC
+	.rodata     start:0x00005EB0 end:0x00006268
+	.data       start:0x00020610 end:0x00022560
+
+tou_08.o:
+	.text       start:0x000067EC end:0x0000686C
+	.rodata     start:0x00006268 end:0x00006BB8
+	.data       start:0x00022560 end:0x00025948
+
+tou_09.o:
+	.rodata     start:0x00006BB8 end:0x00006D08
+	.data       start:0x00025948 end:0x00026380
+
+tou_10.o:
+	.text       start:0x0000686C end:0x00006A50
+	.rodata     start:0x00006D08 end:0x00007788
+	.data       start:0x00026380 end:0x0002AB80
+
+tou_11.o:
+	.rodata     start:0x00007788 end:0x00007930
+	.data       start:0x0002AB80 end:0x0002B870
+
+tou_12.o:
+	.rodata     start:0x00007930 end:0x00007AC0
+	.data       start:0x0002B870 end:0x0002C358
+
+tou_13.o:
+	.rodata     start:0x00007AC0 end:0x00007BE0
+	.data       start:0x0002C358 end:0x0002CA60
+
+tou_20.o:
+	.rodata     start:0x00007BE0 end:0x00007C98
+	.data       start:0x0002CA60 end:0x0002D2F8
+
+evt_lect_tou.o:
+	.text       start:0x00006A50 end:0x00008228
+	.rodata     start:0x00007C98 end:0x0000805C
+	.data       start:0x0002D2F8 end:0x0002F1AC
+	.bss        start:0x00000040 end:0x000000E0

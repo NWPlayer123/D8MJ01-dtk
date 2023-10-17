@@ -1,0 +1,126 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+jin.o:
+	.text       start:0x00000000 end:0x00000258
+	.rodata     start:0x00000000 end:0x00000068
+	.data       start:0x00000000 end:0x00000060
+	.bss        start:0x00000000 end:0x00000008
+
+jin_00.o:
+	.text       start:0x00000258 end:0x00003EBC
+	.rodata     start:0x00000068 end:0x000005B0
+	.data       start:0x00000060 end:0x000039B0
+	.bss        start:0x00000008 end:0x00000030
+
+jin_01.o:
+	.rodata     start:0x000005B0 end:0x00000670
+	.data       start:0x000039B0 end:0x00003FC8
+
+jin_02.o:
+	.rodata     start:0x00000670 end:0x000006F8
+	.data       start:0x00003FC8 end:0x00004540
+
+jin_03.o:
+	.rodata     start:0x000006F8 end:0x00000818
+	.data       start:0x00004540 end:0x00004A50
+
+jin_04.o:
+	.text       start:0x00003EBC end:0x00003F34
+	.rodata     start:0x00000818 end:0x00000D08
+	.data       start:0x00004A50 end:0x000078C0
+
+jin_05.o:
+	.rodata     start:0x00000D08 end:0x00000D80
+	.data       start:0x000078C0 end:0x00007BD8
+
+jin_06.o:
+	.rodata     start:0x00000D80 end:0x00000E10
+	.data       start:0x00007BD8 end:0x00008108
+
+jin_07.o:
+	.text       start:0x00003F34 end:0x00004B90
+	.rodata     start:0x00000E10 end:0x000010A8
+	.data       start:0x00008108 end:0x00009100
+	.bss        start:0x00000030 end:0x00000040
+
+jin_08.o:
+	.rodata     start:0x000010A8 end:0x00001228
+	.data       start:0x00009100 end:0x00009DC0
+
+jin_09.o:
+	.rodata     start:0x00001228 end:0x000012B0
+	.data       start:0x00009DC0 end:0x0000A238
+
+jin_10.o:
+	.text       start:0x00004B90 end:0x00004D04
+	.rodata     start:0x000012B0 end:0x00001340
+	.data       start:0x0000A238 end:0x0000AB18
+
+jin_11.o:
+	.rodata     start:0x00001340 end:0x000013B0
+	.data       start:0x0000AB18 end:0x0000AD98
+
+evt_kagemario.o:
+	.text       start:0x00004D04 end:0x00005110
+	.rodata     start:0x000013B0 end:0x000013B8
+	.data       start:0x0000AD98 end:0x0000AEA0
+
+unit_gullible_christine.o:
+	.text       start:0x00005110 end:0x00005228
+	.rodata     start:0x000013B8 end:0x00001518
+	.data       start:0x0000AEA0 end:0x0000BF68
+
+unit_gullible_clauda.o:
+	.rodata     start:0x00001518 end:0x00001668
+	.data       start:0x0000BF68 end:0x0000CB90
+
+unit_gullible_nokotarou.o:
+	.rodata     start:0x00001668 end:0x00001820
+	.data       start:0x0000CB90 end:0x0000E428
+
+unit_gullible_yoshi.o:
+	.rodata     start:0x00001820 end:0x00001998
+	.data       start:0x0000E428 end:0x0000F570
+
+battle_database_jin.o:
+	.rodata     start:0x00001998 end:0x00001D08
+	.data       start:0x0000F570 end:0x00011AE0
+
+unit_faker_mario.o:
+	.text       start:0x00005228 end:0x0000575C
+	.rodata     start:0x00001D08 end:0x00002098
+	.data       start:0x00011AE0 end:0x00014A70
+
+unit_atmic_teresa.o:
+	.text       start:0x0000575C end:0x00006CA0
+	.rodata     start:0x00002098 end:0x00002458
+	.data       start:0x00014A70 end:0x00016930
+	.bss        start:0x00000040 end:0x00000048
+
+unit_boss_rampell.o:
+	.text       start:0x00006CA0 end:0x00006E18
+	.rodata     start:0x00002458 end:0x000028A0
+	.data       start:0x00016930 end:0x00019D20
+
+unit_met.o:
+	.rodata     start:0x000028A0 end:0x00002AF0
+	.data       start:0x00019D20 end:0x0001BBE0
+
+unit_togemet.o:
+	.rodata     start:0x00002AF0 end:0x00002D28
+	.data       start:0x0001BBE0 end:0x0001DB50
+
+unit_basabasa.o:
+	.rodata     start:0x00002D28 end:0x00002E68
+	.data       start:0x0001DB50 end:0x0001EC38
+
+unit_teresa.o:
+	.text       start:0x00006E18 end:0x00007070
+	.rodata     start:0x00002E68 end:0x00002F89
+	.data       start:0x0001EC38 end:0x000204B8

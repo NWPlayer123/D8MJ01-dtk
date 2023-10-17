@@ -1,0 +1,31 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+hom.o:
+	.text       start:0x00000000 end:0x000000EC
+	.rodata     start:0x00000000 end:0x00000020
+	.data       start:0x00000000 end:0x00000060
+
+hom_00.o:
+	.text       start:0x000000EC end:0x00000650
+	.rodata     start:0x00000020 end:0x00000418
+	.data       start:0x00000060 end:0x000020C8
+	.bss        start:0x00000000 end:0x00000004
+
+hom_10.o:
+	.text       start:0x00000650 end:0x00000728
+	.rodata     start:0x00000418 end:0x00000828
+	.data       start:0x000020C8 end:0x00003A90
+
+hom_11.o:
+	.rodata     start:0x00000828 end:0x00000858
+	.data       start:0x00003A90 end:0x00003C80
+
+hom_12.o:
+	.rodata     start:0x00000858 end:0x00000883
+	.data       start:0x00003C80 end:0x00003E70

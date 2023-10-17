@@ -1,0 +1,43 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+
+pik.o:
+	.text       start:0x00000000 end:0x0000011C
+	.rodata     start:0x00000000 end:0x00000030
+	.data       start:0x00000000 end:0x00000060
+
+pik_00.o:
+	.text       start:0x0000011C end:0x000003F4
+	.rodata     start:0x00000030 end:0x00000BF8
+	.data       start:0x00000060 end:0x000047D0
+
+pik_01.o:
+	.text       start:0x000003F4 end:0x00000828
+	.rodata     start:0x00000BF8 end:0x00001668
+	.data       start:0x000047D0 end:0x00008358
+
+pik_02.o:
+	.text       start:0x00000828 end:0x00001040
+	.rodata     start:0x00001668 end:0x00001DA0
+	.data       start:0x00008358 end:0x0000AE98
+
+pik_03.o:
+	.rodata     start:0x00001DA0 end:0x00001E10
+	.data       start:0x0000AE98 end:0x0000B300
+
+pik_04.o:
+	.rodata     start:0x00001E10 end:0x00002510
+	.data       start:0x0000B300 end:0x0000D8E8
+
+battle_database_pik.o:
+	.rodata     start:0x00002510 end:0x00002608
+	.data       start:0x0000D8E8 end:0x0000E490
+
+unit_purple_teresa.o:
+	.text       start:0x00001040 end:0x00001298
+	.rodata     start:0x00002608 end:0x00002731
+	.data       start:0x0000E490 end:0x0000FD10

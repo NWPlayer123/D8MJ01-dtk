@@ -1,0 +1,276 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+jon_06.o:
+	.data       start:0x00000000 end:0x00000060
+
+jon.o:
+	.text       start:0x00000000 end:0x00000BB4
+	.rodata     start:0x00000000 end:0x00000968
+	.data       start:0x00000060 end:0x00006538
+
+jon_00.o:
+	.data       start:0x00006538 end:0x00006590
+
+jon_01.o:
+	.data       start:0x00006590 end:0x000065E0
+
+jon_02.o:
+	.data       start:0x000065E0 end:0x00006630
+
+jon_03.o:
+	.data       start:0x00006630 end:0x00006680
+
+jon_04.o:
+	.data       start:0x00006680 end:0x000066D0
+
+jon_05.o:
+	.data       start:0x000066D0 end:0x00006720
+
+battle_database_jon.o:
+	.rodata     start:0x00000968 end:0x00001030
+	.data       start:0x00006720 end:0x0000F950
+
+unit_boss_zonbaba.o:
+	.text       start:0x00000BB4 end:0x00000C64
+	.rodata     start:0x00001030 end:0x00001320
+	.data       start:0x0000F950 end:0x00012570
+
+unit_chorobon.o:
+	.rodata     start:0x00001320 end:0x000014E0
+	.data       start:0x00012570 end:0x00013BA8
+
+unit_hannya.o:
+	.rodata     start:0x000014E0 end:0x00001600
+	.data       start:0x00013BA8 end:0x00014768
+
+unit_hinnya.o:
+	.rodata     start:0x00001600 end:0x00001720
+	.data       start:0x00014768 end:0x00015320
+
+unit_honenoko.o:
+	.text       start:0x00000C64 end:0x00000D04
+	.rodata     start:0x00001720 end:0x000019A8
+	.data       start:0x00015320 end:0x00016D60
+
+unit_yami_kuriboo.o:
+	.text       start:0x00000D04 end:0x00000E1C
+	.rodata     start:0x000019A8 end:0x00001B00
+	.data       start:0x00016D60 end:0x000178F8
+
+unit_yami_patakuri.o:
+	.text       start:0x00000E1C end:0x00000F34
+	.rodata     start:0x00001B00 end:0x00001D48
+	.data       start:0x000178F8 end:0x00018FB0
+
+unit_monochrome_sinemon.o:
+	.rodata     start:0x00001D48 end:0x00001EF8
+	.data       start:0x00018FB0 end:0x0001A038
+
+unit_sambo.o:
+	.rodata     start:0x00001EF8 end:0x00002240
+	.data       start:0x0001A038 end:0x0001E750
+
+unit_monochrome_kurokumorn.o:
+	.rodata     start:0x00002240 end:0x00002400
+	.data       start:0x0001E750 end:0x0001FF10
+
+unit_yami_togekuri.o:
+	.text       start:0x00000F34 end:0x0000124C
+	.rodata     start:0x00002400 end:0x000025C8
+	.data       start:0x0001FF10 end:0x00020FB0
+
+unit_borodo.o:
+	.text       start:0x0000124C end:0x00001530
+	.rodata     start:0x000025C8 end:0x00002788
+	.data       start:0x00020FB0 end:0x000228C8
+
+unit_jyugem.o:
+	.text       start:0x00001530 end:0x000015D0
+	.rodata     start:0x00002788 end:0x00002968
+	.data       start:0x000228C8 end:0x00024608
+
+unit_bomhei.o:
+	.rodata     start:0x00002968 end:0x00002B58
+	.data       start:0x00024608 end:0x00025AF8
+
+unit_teresa.o:
+	.text       start:0x000015D0 end:0x00001828
+	.rodata     start:0x00002B58 end:0x00002C80
+	.data       start:0x00025AF8 end:0x00027378
+
+unit_togezo.o:
+	.rodata     start:0x00002C80 end:0x00002ED8
+	.data       start:0x00027378 end:0x00028D18
+
+unit_yami_noko.o:
+	.rodata     start:0x00002ED8 end:0x00003080
+	.data       start:0x00028D18 end:0x0002A150
+
+unit_hyper_sinemon.o:
+	.rodata     start:0x00003080 end:0x00003248
+	.data       start:0x0002A150 end:0x0002B4D0
+
+unit_patamet.o:
+	.rodata     start:0x00003248 end:0x00003558
+	.data       start:0x0002B4D0 end:0x0002DDF8
+
+unit_ura_noko.o:
+	.text       start:0x00001828 end:0x00001908
+	.rodata     start:0x00003558 end:0x00003768
+	.data       start:0x0002DDF8 end:0x0002FB90
+
+unit_flower_chorobon.o:
+	.rodata     start:0x00003768 end:0x00003958
+	.data       start:0x0002FB90 end:0x000318B0
+
+unit_yami_pata.o:
+	.rodata     start:0x00003958 end:0x00003BF8
+	.data       start:0x000318B0 end:0x00033B80
+
+unit_heavy_bom.o:
+	.text       start:0x00001908 end:0x00001A68
+	.rodata     start:0x00003BF8 end:0x00003E60
+	.data       start:0x00033B80 end:0x00035290
+
+unit_bubble.o:
+	.text       start:0x00001A68 end:0x00001F38
+	.rodata     start:0x00003E60 end:0x00004050
+	.data       start:0x00035290 end:0x00036D28
+	.bss        start:0x00000000 end:0x00000058
+
+unit_sambo_mummy.o:
+	.rodata     start:0x00004050 end:0x000043A0
+	.data       start:0x00036D28 end:0x0003B440
+
+unit_patatogemet.o:
+	.rodata     start:0x000043A0 end:0x000046A8
+	.data       start:0x0003B440 end:0x0003DF20
+
+unit_yamitogedaruma.o:
+	.rodata     start:0x000046A8 end:0x000048A0
+	.data       start:0x0003DF20 end:0x0003F158
+
+unit_wanwan.o:
+	.text       start:0x00001F38 end:0x00002654
+	.rodata     start:0x000048A0 end:0x00004A90
+	.data       start:0x0003F158 end:0x00040CE8
+
+unit_twinkling_pansy.o:
+	.rodata     start:0x00004A90 end:0x00004BF8
+	.data       start:0x00040CE8 end:0x00041838
+
+unit_togenoko_ace.o:
+	.text       start:0x00002654 end:0x000026D4
+	.rodata     start:0x00004BF8 end:0x00004E38
+	.data       start:0x00041838 end:0x00043D88
+
+unit_super_mahorn.o:
+	.text       start:0x000026D4 end:0x000030EC
+	.rodata     start:0x00004E38 end:0x00005130
+	.data       start:0x00043D88 end:0x00048140
+
+unit_sinemon.o:
+	.rodata     start:0x00005130 end:0x000052D8
+	.data       start:0x00048140 end:0x000491C8
+
+unit_purple_teresa.o:
+	.text       start:0x000030EC end:0x00003344
+	.rodata     start:0x000052D8 end:0x00005408
+	.data       start:0x000491C8 end:0x0004AA48
+
+unit_phantom.o:
+	.text       start:0x00003344 end:0x00003814
+	.rodata     start:0x00005408 end:0x000055F8
+	.data       start:0x0004AA48 end:0x0004C4E0
+	.bss        start:0x00000058 end:0x000000AC
+
+unit_pakkun_flower.o:
+	.text       start:0x00003814 end:0x00003AA4
+	.rodata     start:0x000055F8 end:0x000057B8
+	.data       start:0x0004C4E0 end:0x0004D6A0
+
+unit_mahorn_custom.o:
+	.text       start:0x00003AA4 end:0x000044BC
+	.rodata     start:0x000057B8 end:0x00005AB0
+	.data       start:0x0004D6A0 end:0x00051A58
+
+unit_mahorn.o:
+	.text       start:0x000044BC end:0x00004C44
+	.rodata     start:0x00005AB0 end:0x00005CF0
+	.data       start:0x00051A58 end:0x00055168
+
+unit_karon.o:
+	.text       start:0x00004C44 end:0x00004CE4
+	.rodata     start:0x00005CF0 end:0x00005F98
+	.data       start:0x00055168 end:0x000575D8
+
+unit_ice_pakkun.o:
+	.text       start:0x00004CE4 end:0x00004F74
+	.rodata     start:0x00005F98 end:0x00006150
+	.data       start:0x000575D8 end:0x00058798
+
+unit_hyper_jyugem.o:
+	.text       start:0x00004F74 end:0x00005014
+	.rodata     start:0x00006150 end:0x00006358
+	.data       start:0x00058798 end:0x0005A7C0
+
+unit_hennya.o:
+	.rodata     start:0x00006358 end:0x00006478
+	.data       start:0x0005A7C0 end:0x0005B380
+
+unit_giant_bomb.o:
+	.text       start:0x00005014 end:0x00005174
+	.rodata     start:0x00006478 end:0x000066E8
+	.data       start:0x0005B380 end:0x0005CA90
+
+unit_dokugassun.o:
+	.text       start:0x00005174 end:0x0000549C
+	.rodata     start:0x000066E8 end:0x00006898
+	.data       start:0x0005CA90 end:0x0005DE78
+
+unit_dark_keeper.o:
+	.rodata     start:0x00006898 end:0x00006A20
+	.data       start:0x0005DE78 end:0x0005F118
+
+unit_burst_wanwan.o:
+	.text       start:0x0000549C end:0x00005BB8
+	.rodata     start:0x00006A20 end:0x00006C10
+	.data       start:0x0005F118 end:0x00060CA8
+
+unit_bllizard.o:
+	.text       start:0x00005BB8 end:0x00005D30
+	.rodata     start:0x00006C10 end:0x00006DC0
+	.data       start:0x00060CA8 end:0x00062268
+
+unit_basabasa_chururu.o:
+	.rodata     start:0x00006DC0 end:0x00006F30
+	.data       start:0x00062268 end:0x000636F8
+
+unit_basabasa_green.o:
+	.rodata     start:0x00006F30 end:0x000070A8
+	.data       start:0x000636F8 end:0x00064B88
+
+unit_badge_borodo.o:
+	.text       start:0x00005D30 end:0x0000600C
+	.rodata     start:0x000070A8 end:0x00007268
+	.data       start:0x00064B88 end:0x000664A0
+
+unit_piders.o:
+	.text       start:0x0000600C end:0x00006774
+	.rodata     start:0x00007268 end:0x00007410
+	.data       start:0x000664A0 end:0x00068658
+
+unit_hyper_togezo.o:
+	.rodata     start:0x00007410 end:0x00007688
+	.data       start:0x00068658 end:0x0006A2E8
+
+unit_churantalar.o:
+	.text       start:0x00006774 end:0x00006EDC
+	.rodata     start:0x00007688 end:0x00007838
+	.data       start:0x0006A2E8 end:0x0006C7F8

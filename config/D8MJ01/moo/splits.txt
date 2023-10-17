@@ -1,0 +1,76 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+moo_00.o:
+	.text       start:0x00000000 end:0x000001D8
+	.rodata     start:0x00000000 end:0x00000210
+	.data       start:0x00000000 end:0x00000EE8
+
+moo_01.o:
+	.rodata     start:0x00000210 end:0x000002D8
+	.data       start:0x00000EE8 end:0x00001348
+
+moo_02.o:
+	.rodata     start:0x000002D8 end:0x000003F0
+	.data       start:0x00001348 end:0x00001B20
+
+moo_03.o:
+	.text       start:0x000001D8 end:0x0000035C
+	.rodata     start:0x000003F0 end:0x00000500
+	.data       start:0x00001B20 end:0x00001FF8
+
+moo_04.o:
+	.text       start:0x0000035C end:0x000004AC
+	.rodata     start:0x00000500 end:0x00000640
+	.data       start:0x00001FF8 end:0x00002C20
+
+moo.o:
+	.text       start:0x000004AC end:0x00000604
+	.rodata     start:0x00000640 end:0x00000688
+	.data       start:0x00002C20 end:0x00002C70
+
+battle_database_moo.o:
+	.text       start:0x00000604 end:0x000006D0
+	.rodata     start:0x00000688 end:0x00000838
+	.data       start:0x00002C70 end:0x00004598
+
+unit_kuriboo.o:
+	.text       start:0x000006D0 end:0x000007E8
+	.rodata     start:0x00000838 end:0x00000990
+	.data       start:0x00004598 end:0x00005130
+
+moo_05.o:
+	.rodata     start:0x00000990 end:0x00000A38
+	.data       start:0x00005130 end:0x000054B0
+
+moo_06.o:
+	.rodata     start:0x00000A38 end:0x00000B00
+	.data       start:0x000054B0 end:0x00005910
+
+moo_07.o:
+	.rodata     start:0x00000B00 end:0x00000BB0
+	.data       start:0x00005910 end:0x00005CB8
+
+unit_sinemon.o:
+	.rodata     start:0x00000BB0 end:0x00000D58
+	.data       start:0x00005CB8 end:0x00006D40
+
+unit_barriern_z_satellite.o:
+	.text       start:0x000007E8 end:0x00000938
+	.rodata     start:0x00000D58 end:0x00000E88
+	.data       start:0x00006D40 end:0x00007280
+
+unit_barriern_z.o:
+	.text       start:0x00000938 end:0x00003020
+	.rodata     start:0x00000E88 end:0x000011D8
+	.data       start:0x00007280 end:0x0000A3A0
+	.bss        start:0x00000000 end:0x00000014
+
+unit_hyper_sinemon.o:
+	.rodata     start:0x000011D8 end:0x0000139F
+	.data       start:0x0000A3A0 end:0x0000B71C

@@ -1,0 +1,66 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+yuu_02.o:
+	.text       start:0x00000000 end:0x00000CC8
+	.rodata     start:0x00000000 end:0x00000140
+	.data       start:0x00000000 end:0x00000D48
+	.bss        start:0x00000000 end:0x00000008
+
+yuu_03.o:
+	.text       start:0x00000CC8 end:0x00002E84
+	.rodata     start:0x00000140 end:0x00000338
+	.data       start:0x00000D48 end:0x00001628
+	.bss        start:0x00000008 end:0x00000018
+
+yuu.o:
+	.text       start:0x00002E84 end:0x00002F70
+	.rodata     start:0x00000338 end:0x00000358
+	.data       start:0x00001628 end:0x00001678
+
+yuu_00.o:
+	.text       start:0x00002F70 end:0x00003994
+	.rodata     start:0x00000358 end:0x00000568
+	.data       start:0x00001678 end:0x000029F0
+	.bss        start:0x00000018 end:0x00000020
+
+yuu_01.o:
+	.text       start:0x00003994 end:0x000049A4
+	.rodata     start:0x00000568 end:0x00000968
+	.data       start:0x000029F0 end:0x000042E8
+	.bss        start:0x00000020 end:0x00000028
+
+evt_yuuranking.o:
+	.text       start:0x000049A4 end:0x00007EF8
+	.rodata     start:0x00000968 end:0x00000D68
+	.data       start:0x000042E8 end:0x00004370
+	.bss        start:0x00000028 end:0x00000030
+
+evt_yuutitle.o:
+	.text       start:0x00007EF8 end:0x0000823C
+	.rodata     start:0x00000D68 end:0x00000DA0
+	.data       start:0x00004370 end:0x000043D0
+	.bss        start:0x00000030 end:0x00000038
+
+evt_yuucounter.o:
+	.text       start:0x0000823C end:0x00008C64
+	.rodata     start:0x00000DA0 end:0x00000DF0
+	.data       start:0x000043D0 end:0x00004430
+	.bss        start:0x00000038 end:0x00000040
+
+evt_yuuminigame.o:
+	.text       start:0x00008C64 end:0x00009204
+	.rodata     start:0x00000DF0 end:0x00000DF8
+	.data       start:0x00004430 end:0x00004490
+	.bss        start:0x00000040 end:0x000000D8
+
+evt_yuunpc.o:
+	.text       start:0x00009204 end:0x00012ECC
+	.rodata     start:0x00000DF8 end:0x00001195
+	.data       start:0x00004490 end:0x00005EE0
+	.bss        start:0x000000D8 end:0x000000E0

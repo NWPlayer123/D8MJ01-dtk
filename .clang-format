@@ -1,0 +1,43 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: LLVM
+AlignArrayOfStructures: Left
+AlignConsecutiveMacros: AcrossComments
+#AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignOperands: AlignAfterOperator
+AllowShortEnumsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: None
+AllowShortLoopsOnASingleLine: true
+BraceWrapping: 
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeWhile: true
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+ColumnLimit: 100
+DeriveLineEnding: false
+IncludeBlocks: Regroup
+IndentCaseBlocks: true
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+IndentExternBlock: Indent
+IndentRequires: true
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+LineEnding: CRLF
+NamespaceIndentation: All
+PointerAlignment: Left
+ReflowComments: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCpp11BracedList: true
+SpacesInContainerLiterals: false
+StatementMacros: 
+  - Q_UNUSED
+  - QT_REQUIRE_VERSION
+  - PUBLISHED
+TabWidth: 4
+UseCRLF: true
+...

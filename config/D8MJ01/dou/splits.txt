@@ -1,0 +1,121 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+dou.o:
+	.text       start:0x00000000 end:0x0000023C
+	.rodata     start:0x00000000 end:0x00000088
+	.data       start:0x00000000 end:0x00000278
+
+dou_00.o:
+	.text       start:0x0000023C end:0x0000025C
+	.rodata     start:0x00000088 end:0x00000108
+	.data       start:0x00000278 end:0x000005E0
+
+dou_01.o:
+	.rodata     start:0x00000108 end:0x000001B8
+	.data       start:0x000005E0 end:0x000008C0
+
+dou_02.o:
+	.rodata     start:0x000001B8 end:0x00000348
+	.data       start:0x000008C0 end:0x00001250
+
+dou_03.o:
+	.rodata     start:0x00000348 end:0x000005F0
+	.data       start:0x00001250 end:0x000021C0
+
+dou_04.o:
+	.text       start:0x0000025C end:0x0000055C
+	.rodata     start:0x000005F0 end:0x00000900
+	.data       start:0x000021C0 end:0x00003EB8
+
+dou_05.o:
+	.text       start:0x0000055C end:0x000006E4
+	.rodata     start:0x00000900 end:0x00000AB0
+	.data       start:0x00003EB8 end:0x000047A0
+	.bss        start:0x00000000 end:0x00000008
+
+dou_06.o:
+	.rodata     start:0x00000AB0 end:0x00000B38
+	.data       start:0x000047A0 end:0x00004948
+
+dou_07.o:
+	.text       start:0x000006E4 end:0x000007C8
+	.rodata     start:0x00000B38 end:0x00000DE0
+	.data       start:0x00004948 end:0x000057C0
+
+dou_08.o:
+	.rodata     start:0x00000DE0 end:0x00000EF8
+	.data       start:0x000057C0 end:0x00005C90
+
+dou_09.o:
+	.rodata     start:0x00000EF8 end:0x000010B0
+	.data       start:0x00005C90 end:0x00006BA8
+
+dou_10.o:
+	.text       start:0x000007C8 end:0x00001088
+	.rodata     start:0x000010B0 end:0x000013B8
+	.data       start:0x00006BA8 end:0x00007F10
+
+dou_11.o:
+	.text       start:0x00001088 end:0x000017F8
+	.rodata     start:0x000013B8 end:0x00001AD8
+	.data       start:0x00007F10 end:0x0000E5D0
+
+battle_database_dou.o:
+	.text       start:0x000017F8 end:0x00001990
+	.rodata     start:0x00001AD8 end:0x00001EA8
+	.data       start:0x0000E5D0 end:0x00010DF0
+
+unit_kuriboo.o:
+	.text       start:0x00001990 end:0x00001AA8
+	.rodata     start:0x00001EA8 end:0x00002000
+	.data       start:0x00010DF0 end:0x00011988
+
+unit_bubble.o:
+	.text       start:0x00001AA8 end:0x00001F78
+	.rodata     start:0x00002000 end:0x000021F0
+	.data       start:0x00011988 end:0x00013420
+	.bss        start:0x00000008 end:0x00000060
+
+unit_killer.o:
+	.rodata     start:0x000021F0 end:0x00002338
+	.data       start:0x00013420 end:0x00013EA8
+
+unit_killer_cannon.o:
+	.text       start:0x00001F78 end:0x000020E8
+	.rodata     start:0x00002338 end:0x000024E0
+	.data       start:0x00013EA8 end:0x00015710
+
+unit_heavy_bom.o:
+	.text       start:0x000020E8 end:0x00002248
+	.rodata     start:0x000024E0 end:0x00002748
+	.data       start:0x00015710 end:0x00016E20
+
+unit_hermos.o:
+	.text       start:0x00002248 end:0x00002718
+	.rodata     start:0x00002748 end:0x00002930
+	.data       start:0x00016E20 end:0x000189C8
+	.bss        start:0x00000060 end:0x000000B8
+
+dou_13.o:
+	.rodata     start:0x00002930 end:0x000029C0
+	.data       start:0x000189C8 end:0x00018B80
+
+dou_12.o:
+	.rodata     start:0x000029C0 end:0x00002A70
+	.data       start:0x00018B80 end:0x00018E08
+
+unit_patamet.o:
+	.rodata     start:0x00002A70 end:0x00002D80
+	.data       start:0x00018E08 end:0x0001B730
+
+evt_lect_dou.o:
+	.text       start:0x00002718 end:0x00003BA0
+	.rodata     start:0x00002D80 end:0x00002F30
+	.data       start:0x0001B730 end:0x0001C68C
+	.bss        start:0x000000B8 end:0x00000160

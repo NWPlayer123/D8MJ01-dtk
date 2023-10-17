@@ -1,0 +1,49 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+kpa_02.o:
+	.rodata     start:0x00000000 end:0x00000010
+	.data       start:0x00000000 end:0x00000560
+
+kpa.o:
+	.text       start:0x00000000 end:0x00000C88
+	.rodata     start:0x00000010 end:0x00000240
+	.data       start:0x00000560 end:0x00001668
+	.bss        start:0x00000000 end:0x00000040
+
+kpa_00.o:
+	.rodata     start:0x00000240 end:0x000002C8
+	.data       start:0x00001668 end:0x00001F10
+
+kpa_01.o:
+	.text       start:0x00000C88 end:0x00000F54
+	.rodata     start:0x000002C8 end:0x000008B0
+	.data       start:0x00001F10 end:0x000050B8
+	.bss        start:0x00000040 end:0x00000048
+
+kpa_06.o:
+	.rodata     start:0x000008B0 end:0x000008C0
+	.data       start:0x000050B8 end:0x00005450
+
+kpa_03.o:
+	.rodata     start:0x000008C0 end:0x000008E8
+	.data       start:0x00005450 end:0x00005C70
+
+kpa_04.o:
+	.rodata     start:0x000008E8 end:0x000008F8
+	.data       start:0x00005C70 end:0x00006040
+
+kpa_05.o:
+	.text       start:0x00000F54 end:0x00000F98
+	.rodata     start:0x000008F8 end:0x00000938
+	.data       start:0x00006040 end:0x00006710
+
+kpa_07.o:
+	.text       start:0x00000F98 end:0x00001354
+	.rodata     start:0x00000938 end:0x00000CBD
+	.data       start:0x00006710 end:0x00007EB8

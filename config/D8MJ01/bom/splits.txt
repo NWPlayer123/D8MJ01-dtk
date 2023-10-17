@@ -1,0 +1,55 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+bom.o:
+	.text       start:0x00000000 end:0x0000041C
+	.rodata     start:0x00000000 end:0x00000038
+	.data       start:0x00000000 end:0x00000090
+
+bom_00.o:
+	.rodata     start:0x00000038 end:0x00000128
+	.data       start:0x00000090 end:0x00000738
+
+bom_01.o:
+	.text       start:0x0000041C end:0x00005A6C
+	.rodata     start:0x00000128 end:0x00000F38
+	.data       start:0x00000738 end:0x00005688
+	.bss        start:0x00000000 end:0x00000048
+
+bom_02.o:
+	.text       start:0x00005A6C end:0x00005C00
+	.rodata     start:0x00000F38 end:0x00001C48
+	.data       start:0x00005688 end:0x00009A78
+
+bom_04.o:
+	.rodata     start:0x00001C48 end:0x00001D08
+	.data       start:0x00009A78 end:0x00009CB8
+
+bom_03.o:
+	.rodata     start:0x00001D08 end:0x00001DA8
+	.data       start:0x00009CB8 end:0x00009ED8
+
+battle_database_bom.o:
+	.text       start:0x00005C00 end:0x00005C34
+	.rodata     start:0x00001DA8 end:0x00001EF0
+	.data       start:0x00009ED8 end:0x0000AB28
+
+unit_kuriboo.o:
+	.text       start:0x00005C34 end:0x00005D4C
+	.rodata     start:0x00001EF0 end:0x00002048
+	.data       start:0x0000AB28 end:0x0000B6C0
+
+unit_bllizard.o:
+	.text       start:0x00005D4C end:0x00005EC4
+	.rodata     start:0x00002048 end:0x000021F8
+	.data       start:0x0000B6C0 end:0x0000CC80
+
+unit_ice_pakkun.o:
+	.text       start:0x00005EC4 end:0x00006154
+	.rodata     start:0x000021F8 end:0x000023B0
+	.data       start:0x0000CC80 end:0x0000DE3C

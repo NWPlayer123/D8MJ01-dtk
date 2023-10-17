@@ -1,0 +1,145 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+gon.o:
+	.text       start:0x00000000 end:0x000001E4
+	.rodata     start:0x00000000 end:0x00000080
+	.data       start:0x00000000 end:0x00000060
+
+gon_00.o:
+	.text       start:0x000001E4 end:0x000001E4
+	.rodata     start:0x00000080 end:0x00000120
+	.data       start:0x00000060 end:0x00000340
+
+gon_01.o:
+	.text       start:0x000001E4 end:0x000001E4
+	.rodata     start:0x00000120 end:0x00000338
+	.data       start:0x00000340 end:0x00001170
+
+gon_02.o:
+	.text       start:0x000001E4 end:0x000001E4
+	.rodata     start:0x00000338 end:0x00000400
+	.data       start:0x00001170 end:0x000017A0
+
+gon_03.o:
+	.text       start:0x000001E4 end:0x00001314
+	.rodata     start:0x00000400 end:0x00000808
+	.data       start:0x000017A0 end:0x00003140
+	.bss        start:0x00000000 end:0x00000018
+
+gon_04.o:
+	.text       start:0x00001314 end:0x00001314
+	.rodata     start:0x00000808 end:0x00000C48
+	.data       start:0x00003140 end:0x00005750
+
+gon_05.o:
+	.text       start:0x00001314 end:0x00001314
+	.rodata     start:0x00000C48 end:0x00000EF0
+	.data       start:0x00005750 end:0x00007248
+
+gon_06.o:
+	.text       start:0x00001314 end:0x000013F8
+	.rodata     start:0x00000EF0 end:0x00001238
+	.data       start:0x00007248 end:0x000087B8
+
+gon_07.o:
+	.text       start:0x000013F8 end:0x000013F8
+	.rodata     start:0x00001238 end:0x00001380
+	.data       start:0x000087B8 end:0x00009400
+
+gon_08.o:
+	.text       start:0x000013F8 end:0x000013F8
+	.rodata     start:0x00001380 end:0x00001620
+	.data       start:0x00009400 end:0x0000A550
+
+gon_09.o:
+	.text       start:0x000013F8 end:0x000013F8
+	.rodata     start:0x00001620 end:0x00001810
+	.data       start:0x0000A550 end:0x0000B308
+
+gon_10.o:
+	.text       start:0x000013F8 end:0x000013F8
+	.rodata     start:0x00001810 end:0x00001890
+	.data       start:0x0000B308 end:0x0000B628
+
+gon_11.o:
+	.text       start:0x000013F8 end:0x00001ECC
+	.rodata     start:0x00001890 end:0x00001D70
+	.data       start:0x0000B628 end:0x0000D4A0
+	.bss        start:0x00000018 end:0x00000020
+
+gon_12.o:
+	.text       start:0x00001ECC end:0x00001FD4
+	.rodata     start:0x00001D70 end:0x00001FD8
+	.data       start:0x0000D4A0 end:0x0000E2F8
+
+gon_bt00.o:
+	.text       start:0x00001FD4 end:0x00001FD4
+	.data       start:0x0000E2F8 end:0x0000E350
+
+battle_database_gon.o:
+	.text       start:0x00001FD4 end:0x00001FD4
+	.rodata     start:0x00001FD8 end:0x00002348
+	.data       start:0x0000E350 end:0x00010278
+
+unit_boss_gonbaba.o:
+	.text       start:0x00001FD4 end:0x00002358
+	.rodata     start:0x00002348 end:0x000028F8
+	.data       start:0x00010278 end:0x00014A50
+
+unit_honenoko.o:
+	.text       start:0x00002358 end:0x00002358
+	.text       start:0x00002358 end:0x000023F8
+	.rodata     start:0x000028F8 end:0x00002B80
+	.data       start:0x00014A50 end:0x00016490
+
+unit_kuriboo.o:
+	.text       start:0x000023F8 end:0x000023F8
+	.text       start:0x000023F8 end:0x00002510
+	.rodata     start:0x00002B80 end:0x00002CD8
+	.data       start:0x00016490 end:0x00017028
+
+unit_red_honenoko.o:
+	.text       start:0x00002510 end:0x00002510
+	.text       start:0x00002510 end:0x000025B0
+	.rodata     start:0x00002CD8 end:0x00002F70
+	.data       start:0x00017028 end:0x00018A68
+
+unit_nokonoko.o:
+	.text       start:0x000025B0 end:0x000025B0
+	.rodata     start:0x00002F70 end:0x00003118
+	.data       start:0x00018A68 end:0x00019EA0
+
+unit_patakuri.o:
+	.text       start:0x000025B0 end:0x000025B0
+	.text       start:0x000025B0 end:0x000026C8
+	.rodata     start:0x00003118 end:0x00003350
+	.data       start:0x00019EA0 end:0x0001B558
+
+unit_patapata.o:
+	.text       start:0x000026C8 end:0x000026C8
+	.rodata     start:0x00003350 end:0x000035E8
+	.data       start:0x0001B558 end:0x0001D828
+
+unit_togekuri.o:
+	.text       start:0x000026C8 end:0x000026C8
+	.text       start:0x000026C8 end:0x00002A00
+	.rodata     start:0x000035E8 end:0x000037A8
+	.data       start:0x0001D828 end:0x0001E8C8
+
+gon_13.o:
+	.text       start:0x00002A00 end:0x00002A00
+	.rodata     start:0x000037A8 end:0x00003848
+	.data       start:0x0001E8C8 end:0x0001EC08
+
+evt_lect_gon.o:
+	.text       start:0x00002A00 end:0x00002A00
+	.text       start:0x00002A00 end:0x00003C24
+	.rodata     start:0x00003848 end:0x00003970
+	.data       start:0x0001EC08 end:0x0001F320
+	.bss        start:0x00000020 end:0x000000C8
