@@ -1,5 +1,6 @@
-Some Game  
-[![Build Status]][actions] ![Progress] ![DOL Progress] ![RELs Progress] [![Discord Badge]][discord]
+Paper Mario: The Thousand-Year Door (Demo)
+<!--![Build Status]][actions] ![Progress] ![DOL Progress] ![RELs Progress]-->
+[[![Discord Badge]][discord]
 =============
 
 <!--
@@ -37,7 +38,7 @@ This repository does **not** contain any game assets or assembly whatsoever. An 
 
 Supported versions:
 
-- `D8MJ01`: PaperMarioRPG.tgc
+- `D8MJ01`: `PaperMarioRPG.tgc` from `Gekkan Nintendo Tentou Demo 2004.7.1`
 
 Dependencies
 ============
