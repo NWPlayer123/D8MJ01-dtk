@@ -1,7 +1,6 @@
-Paper Mario: The Thousand-Year Door (Demo)
-<!--![Build Status]][actions] ![Progress] ![DOL Progress] ![RELs Progress]-->
-[[![Discord Badge]][discord]
+Paper Mario: The Thousand-Year Door (Demo) [![Discord Badge]][discord]
 =============
+<!--![Build Status]][actions] ![Progress] ![DOL Progress] ![RELs Progress]-->
 
 <!--
 Replace with your repository's URL.
