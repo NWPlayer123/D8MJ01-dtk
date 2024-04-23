@@ -2,6 +2,9 @@
 #define MEMORY_H
 
 #include "dolphin/types.h"
+#include "size_t.h"
+
+void* memset(void* dst, int val, size_t n);
 
 typedef enum HEAP_TYPE {
     HEAP_DEFAULT = 0,

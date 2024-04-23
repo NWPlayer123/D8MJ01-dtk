@@ -4,6 +4,7 @@
 #include "evt/evt_badgeshop.h"
 #include "item_data.h"
 #include "memory.h"
+#include "string.h"
 
 //.sbss
 PouchData* mpp;

@@ -14,4 +14,6 @@ typedef struct BadgeShopWork {
 
 extern BadgeShopWork* bdsw;
 
+s32 badgeShop_add(u8* table, s32 id, s32 value);
+
 #endif
